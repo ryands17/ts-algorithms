@@ -1,0 +1,35 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "start": "tsnd --respawn --transpileOnly --no-notify ./src",
+    "test": "jest",
+    "test:w": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/prettier": "^1.19.0",
+    "@types/rimraf": "^2.0.3",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0",
+    "ts-jest": "^24.3.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typesync": "^0.6.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
