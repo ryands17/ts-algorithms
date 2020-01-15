@@ -13,6 +13,8 @@ const findMin = (list: number[], index: number) => {
 export const selectionSort = (list: number[]): number[] => {
   const sortedList = [...list]
 
+  if (sortedList.length < 2) return sortedList
+
   for (let i = 0; i < sortedList.length; i++) {
     const minIndex = findMin(sortedList, i + 1)
     if (sortedList[i] > sortedList[minIndex]) {
