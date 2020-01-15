@@ -1,4 +1,4 @@
-type INode<T> = Node<T> | null
+export type INode<T> = Node<T> | null
 
 export class Node<T> {
   constructor(public data: T, public next: INode<T> = null) {}
@@ -6,6 +6,10 @@ export class Node<T> {
 
 export class LinkedList<T> {
   public head: INode<T> = null
+
+  constructor(values: T[] = []) {
+    for (let value of values) this.insertLast(value)
+  }
 
   insertFirst(data: T) {
     const next = this.head
