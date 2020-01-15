@@ -4,6 +4,8 @@ export const findMidpoint = <T>(list: LinkedList<T>): INode<T> => {
   let current = list.head
   let double = list.head?.next
 
+  if (!current?.next) return current
+
   while (double?.next) {
     current = current?.next ?? null
     for (let i = 0; i < 2; i++) {

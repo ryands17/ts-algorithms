@@ -6,8 +6,14 @@ test('Midpoint is a function', () => {
 })
 
 describe('Midpoint returns the middle node of an odd numbered list', () => {
+  test('when the list has only 1 element', () => {
+    const l = new LinkedList<string>()
+    l.insertLast('a')
+    expect(midpoint(l)?.data).toEqual('a')
+  })
+
   test('when the list has 3 elements', () => {
-    const l = new LinkedList()
+    const l = new LinkedList<string>()
     l.insertLast('a')
     l.insertLast('b')
     l.insertLast('c')
@@ -15,7 +21,7 @@ describe('Midpoint returns the middle node of an odd numbered list', () => {
   })
 
   test('when the list has 5 elements', () => {
-    const l = new LinkedList()
+    const l = new LinkedList<string>()
     l.insertLast('a')
     l.insertLast('b')
     l.insertLast('c')
@@ -27,14 +33,14 @@ describe('Midpoint returns the middle node of an odd numbered list', () => {
 
 describe('Midpoint returns the middle node of an even numbered list', () => {
   test('when the list has 2 elements', () => {
-    const l = new LinkedList()
+    const l = new LinkedList<string>()
     l.insertLast('a')
     l.insertLast('b')
     expect(midpoint(l)?.data).toEqual('a')
   })
 
   test('when the list has 4 elements', () => {
-    const l = new LinkedList()
+    const l = new LinkedList<string>()
     l.insertLast('a')
     l.insertLast('b')
     l.insertLast('c')
