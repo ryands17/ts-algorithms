@@ -28,6 +28,20 @@
     "ts-node-dev": "^1.0.0-pre.44",
     "typesync": "^0.6.1"
   },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json"
+    ]
+  },
   "prettier": {
     "semi": false,
     "singleQuote": true,
