@@ -10,7 +10,11 @@
     "test": "jest",
     "test:w": "jest --watch"
   },
-  "keywords": [],
+  "keywords": [
+    "algorithms",
+    "typescript",
+    "data structures"
+  ],
   "author": "Ryan Dsouza",
   "license": "ISC",
   "dependencies": {
@@ -21,7 +25,9 @@
     "@types/node": "^13.1.6",
     "@types/prettier": "^1.19.0",
     "@types/rimraf": "^2.0.3",
+    "husky": ">=1",
     "jest": "^24.9.0",
+    "lint-staged": ">=8",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
     "ts-jest": "^24.3.0",
@@ -46,5 +52,16 @@
     "semi": false,
     "singleQuote": true,
     "trailingComma": "es5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
