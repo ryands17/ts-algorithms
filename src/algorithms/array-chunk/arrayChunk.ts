@@ -1,19 +1,16 @@
 export const chunk = <T>(array: T[], size: number) => {
-  const mainCopy = [...array]
+  const arrayCopy = [...array]
   const chunks: Array<T[]> = []
+  let chunk: T[] = []
 
-  while (mainCopy.length) {
-    if (size >= mainCopy.length) {
-      chunks.push(mainCopy)
-      break
+  for (let val of arrayCopy) {
+    chunk.push(val)
+    if (chunk.length === size) {
+      chunks.push(chunk)
+      chunk = []
     }
-
-    let chunk: T[] = []
-    for (let i = 0; i < size; i++) {
-      chunk.push(mainCopy[0])
-      mainCopy.shift()
-    }
-    chunks.push(chunk)
   }
+  chunk.length && chunks.push(chunk)
+
   return chunks
 }
