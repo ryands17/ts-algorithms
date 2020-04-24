@@ -26,11 +26,11 @@
     "@types/prettier": "^1.19.0",
     "@types/rimraf": "^2.0.3",
     "husky": ">=1",
-    "jest": "^24.9.0",
+    "jest": "^25.4.0",
     "lint-staged": ">=8",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
-    "ts-jest": "^24.3.0",
+    "ts-jest": "^25.3.1",
     "ts-node-dev": "^1.0.0-pre.44",
     "typesync": "^0.6.1"
   },
