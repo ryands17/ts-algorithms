@@ -1,10 +1,6 @@
 import { LinkedList } from './linkedList'
 import { findMidpoint as midpoint } from './list-midpoint'
 
-test('Midpoint is a function', () => {
-  expect(typeof midpoint).toEqual('function')
-})
-
 describe('Midpoint returns the middle node of an odd numbered list', () => {
   test('when the list has only 1 element', () => {
     const l = new LinkedList<string>()

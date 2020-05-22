@@ -1,10 +1,6 @@
 import { Node } from './tree'
 import { levelWidth } from './levelWidth'
 
-test('levelWidth is a function', () => {
-  expect(typeof levelWidth).toEqual('function')
-})
-
 test('levelWidth returns number of nodes at widest point - 1', () => {
   const root = new Node(0)
   root.add(1)

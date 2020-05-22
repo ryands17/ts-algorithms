@@ -1,9 +1,5 @@
 import { generateSteps as steps } from './steps'
 
-test('steps is a function', () => {
-  expect(typeof steps).toEqual('function')
-})
-
 test('steps called with n = 1', () => {
   const log = (global.console.log = jest.fn())
   steps(1)

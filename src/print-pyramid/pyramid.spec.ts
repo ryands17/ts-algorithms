@@ -1,9 +1,5 @@
 import { generatePyramid as pyramid } from './pyramid'
 
-test('pyramid is a function', () => {
-  expect(typeof pyramid).toEqual('function')
-})
-
 test('prints a pryamid for n = 2', () => {
   const log = (global.console.log = jest.fn())
   pyramid(2)

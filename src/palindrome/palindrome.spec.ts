@@ -1,9 +1,5 @@
 import { palindrome } from './palindrome'
 
-test('palindrome function is defined', () => {
-  expect(typeof palindrome).toEqual('function')
-})
-
 test('"aba" is a palindrome', () => {
   expect(palindrome('aba')).toBeTruthy()
 })

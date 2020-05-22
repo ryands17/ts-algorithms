@@ -1,9 +1,5 @@
 import { Stack } from './stack'
 
-test('Stack is a class', () => {
-  expect(typeof Stack.prototype.constructor).toEqual('function')
-})
-
 test('stack can add and remove items', () => {
   const s = new Stack<number>()
   s.push(1)

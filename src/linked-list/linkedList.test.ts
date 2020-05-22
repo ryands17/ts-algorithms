@@ -1,13 +1,5 @@
 import { Node, LinkedList as List } from './linkedList'
 
-test('List is a class', () => {
-  expect(typeof List.prototype.constructor).toEqual('function')
-})
-
-test('Node is a class', () => {
-  expect(typeof Node.prototype.constructor).toEqual('function')
-})
-
 describe('A Node', () => {
   test('has properties "data" and "next"', () => {
     const node = new Node('a', new Node('b', null))
@@ -276,7 +268,7 @@ describe('ForEach', () => {
     l.insertLast(3)
     l.insertLast(4)
 
-    l.forEach(node => {
+    l.forEach((node) => {
       node.data += 10
     })
 

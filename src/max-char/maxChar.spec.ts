@@ -1,9 +1,5 @@
 import { maxChar } from './maxChar'
 
-test('maxChar function exists', () => {
-  expect(typeof maxChar).toEqual('function')
-})
-
 test('Finds the most frequently used char', () => {
   expect(maxChar('a')).toEqual('a')
   expect(maxChar('abcdefghijklmnaaaaa')).toEqual('a')

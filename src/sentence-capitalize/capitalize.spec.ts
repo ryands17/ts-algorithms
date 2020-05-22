@@ -1,9 +1,5 @@
 import { capitalize } from './capitalize'
 
-test('Capitalize is a function', () => {
-  expect(typeof capitalize).toEqual('function')
-})
-
 test('capitalizes the first letter of every word in a sentence', () => {
   expect(capitalize('hi there, how is it going?')).toEqual(
     'Hi There, How Is It Going?'
