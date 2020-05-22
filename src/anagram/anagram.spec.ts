@@ -1,9 +1,5 @@
 import { anagram } from './anagram'
 
-test('anagrams function exists', () => {
-  expect(typeof anagram).toEqual('function')
-})
-
 test('"hello" is an anagram of "llohe"', () => {
   expect(anagram('hello', 'llohe')).toBeTruthy()
 })

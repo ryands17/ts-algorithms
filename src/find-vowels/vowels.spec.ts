@@ -1,9 +1,5 @@
 import { vowels } from './vowels'
 
-test('Vowels is a function', () => {
-  expect(typeof vowels).toEqual('function')
-})
-
 test('returns the number of vowels used', () => {
   expect(vowels('aeiou')).toEqual(5)
 })

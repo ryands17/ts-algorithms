@@ -1,5 +1,5 @@
 {
-  "name": "algorithms",
+  "name": "ts-algorithms",
   "version": "1.0.1",
   "description": "A list of data structures and algorithms in TypeScript",
   "main": "index.js",
@@ -18,16 +18,16 @@
   "author": "Ryan Dsouza",
   "license": "ISC",
   "dependencies": {
-    "typescript": "^3.9.2"
+    "typescript": "^3.9.3"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",
-    "@types/node": "^14.0.1",
+    "@types/node": "^14.0.5",
     "@types/prettier": "^2.0.0",
     "@types/rimraf": "^3.0.0",
     "husky": ">=4",
     "jest": "^25.5.4",
-    "lint-staged": ">=10.2.2",
+    "lint-staged": ">=10.2.6",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.2",
     "ts-jest": "^25.5.1",
@@ -50,8 +50,7 @@
   },
   "prettier": {
     "semi": false,
-    "singleQuote": true,
-    "trailingComma": "es5"
+    "singleQuote": true
   },
   "husky": {
     "hooks": {
@@ -60,8 +59,7 @@
   },
   "lint-staged": {
     "*.{js,ts,json,md}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   }
 }

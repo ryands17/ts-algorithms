@@ -1,10 +1,6 @@
 import { LinkedList as List } from './linkedList'
 import { elementFromLast as fromLast } from './from-last'
 
-test('fromLast is a function', () => {
-  expect(typeof fromLast).toEqual('function')
-})
-
 test('fromLast returns the node n elements from the end', () => {
   const l = new List()
 

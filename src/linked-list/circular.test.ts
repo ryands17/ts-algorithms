@@ -1,10 +1,6 @@
 import { isCircularList as circular } from './circular'
 import { LinkedList as List, Node } from './linkedList'
 
-test('circular', () => {
-  expect(typeof circular).toEqual('function')
-})
-
 test('circular detects circular linked lists', () => {
   const l = new List<string>()
   const a = new Node('a')
