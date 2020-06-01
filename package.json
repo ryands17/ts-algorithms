@@ -32,7 +32,7 @@
     "rimraf": "^3.0.2",
     "ts-jest": "^25.5.1",
     "ts-node-dev": "^1.0.0-pre.44",
-    "typesync": "^0.6.1"
+    "typesync": "^0.7.0"
   },
   "jest": {
     "roots": [
