@@ -22,17 +22,17 @@
   },
   "devDependencies": {
     "@types/jest": "^25.2.3",
-    "@types/node": "^14.0.5",
+    "@types/node": "^14.0.8",
     "@types/prettier": "^2.0.1",
     "@types/rimraf": "^3.0.0",
     "husky": ">=4",
     "jest": "^25.5.4",
-    "lint-staged": ">=10.2.6",
+    "lint-staged": ">=10.2.7",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.2",
     "ts-jest": "^25.5.1",
     "ts-node-dev": "^1.0.0-pre.44",
-    "typesync": "^0.6.1"
+    "typesync": "^0.7.0"
   },
   "jest": {
     "roots": [
