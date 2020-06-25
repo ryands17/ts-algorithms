@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { Stack } from '../stack/stack'
 
 export class Queue<T> {

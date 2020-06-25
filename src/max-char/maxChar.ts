@@ -5,7 +5,7 @@ export const maxChar = (str: string) => {
   }
 
   let maxCharNum = 0
-  let maxChar: string = ''
+  let maxChar = ''
   for (let key in dict) {
     if (dict[key] > maxCharNum) {
       maxCharNum = dict[key]

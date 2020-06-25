@@ -162,7 +162,6 @@ describe('RemoveAt', () => {
   })
 
   test('removeAt doesnt crash on an index out of bounds', () => {
-    const l = new List()
     expect(() => {
       const l = new List()
       l.insertFirst('a')
@@ -301,7 +300,7 @@ describe('for...of loops', () => {
   test('for...of works on an empty list', () => {
     const l = new List()
     expect(() => {
-      for (let node of l) {
+      for (let _node of l) {
       }
     }).not.toThrow()
   })

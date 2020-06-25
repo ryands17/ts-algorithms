@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { Queue } from '../queue/queue'
 
 export const weave = <T1, T2>(q1: Queue<T1>, q2: Queue<T2>): Queue<T1 | T2> => {
