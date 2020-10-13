@@ -1,0 +1,24 @@
+{
+  "extends": ["config:base"],
+  "masterIssue": true,
+  "automerge": true,
+  "schedule": ["every weekend"],
+  "packageRules": [
+    {
+      "packagePatterns": ["^@types/", "typesync"],
+      "groupName": "ts-types"
+    },
+    {
+      "packagePatterns": ["^eslint", "^@typescript-eslint/"],
+      "groupName": "eslint"
+    },
+    {
+      "packagePatterns": ["^jest", "ts-jest"],
+      "groupName": "test-utils"
+    },
+    {
+      "packagePatterns": ["husky", "lint-staged", "prettier"],
+      "groupName": "hooks"
+    }
+  ]
+}
