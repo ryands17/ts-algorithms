@@ -31,11 +31,11 @@
     "eslint": "7.27.0",
     "eslint-config-prettier": "8.3.0",
     "husky": "6.0.0",
-    "jest": "27.0.3",
+    "jest": "27.0.4",
     "lint-staged": "11.0.0",
     "prettier": "2.3.0",
     "rimraf": "3.0.2",
-    "ts-jest": "27.0.1",
+    "ts-jest": "27.0.2",
     "ts-node-dev": "1.1.6",
     "typesync": "0.8.0"
   },
