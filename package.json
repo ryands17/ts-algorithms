@@ -35,7 +35,7 @@
     "lint-staged": "11.0.0",
     "prettier": "2.3.1",
     "rimraf": "3.0.2",
-    "ts-jest": "27.0.2",
+    "ts-jest": "27.0.3",
     "ts-node-dev": "1.1.6",
     "typesync": "0.8.0"
   },
