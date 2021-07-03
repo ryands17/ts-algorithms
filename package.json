@@ -36,7 +36,7 @@
     "prettier": "2.3.2",
     "rimraf": "3.0.2",
     "ts-jest": "27.0.3",
-    "ts-node-dev": "1.1.6",
+    "ts-node-dev": "1.1.8",
     "typesync": "0.8.0"
   },
   "jest": {
