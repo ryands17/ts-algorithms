@@ -986,10 +986,10 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@26.0.23":
-  version "26.0.23"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.23.tgz#a1b7eab3c503b80451d019efb588ec63522ee4e7"
-  integrity sha512-ZHLmWMJ9jJ9PTiT58juykZpL7KjwJywFN3Rr2pTSkyQfydf/rk22yS7W8p5DaVUMQ2BQC7oYiU3FjbTM/mYrOA==
+"@types/jest@26.0.24":
+  version "26.0.24"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.24.tgz#943d11976b16739185913a1936e0de0c4a7d595a"
+  integrity sha512-E/X5Vib8BWqZNRlDxj9vYXhsDwPYbPINqKF9BsnSoon4RQ0D9moEuLD8txgyypFLH7J4+Lho9Nr/c8H0Fi+17w==
   dependencies:
     jest-diff "^26.0.0"
     pretty-format "^26.0.0"
@@ -1009,10 +1009,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.11.8.tgz#fe2012f2355e4ce08bca44aeb3abbb21cf88d33f"
   integrity sha512-KPcKqKm5UKDkaYPTuXSx8wEP7vE9GnuaXIZKijwRYcePpZFDVuy2a57LarFKiORbHOuTOOwYzxVxcUzsh2P2Pw==
 
-"@types/node@14.17.4":
-  version "14.17.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.4.tgz#218712242446fc868d0e007af29a4408c7765bc0"
-  integrity sha512-8kQ3+wKGRNN0ghtEn7EGps/B8CzuBz1nXZEIGGLP2GnwbqYn4dbTs7k+VKLTq1HvZLRCIDtN3Snx1Ege8B7L5A==
+"@types/node@14.17.5":
+  version "14.17.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.5.tgz#b59daf6a7ffa461b5648456ca59050ba8e40ed54"
+  integrity sha512-bjqH2cX/O33jXT/UmReo2pM7DIJREPMnarixbQ57DOOzzFaI6D2+IcwaJQaJpv0M1E9TIhPCYVxrkcityLjlqA==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1029,10 +1029,10 @@
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.2.3.tgz#ef65165aea2924c9359205bf748865b8881753c0"
   integrity sha512-PijRCG/K3s3w1We6ynUKdxEc5AcuuH3NBmMDP8uvKVp6X43UY7NQlTzczakXP3DJR0F4dfNQIGjU2cUeRYs2AA==
 
-"@types/rimraf@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@types/rimraf/-/rimraf-3.0.0.tgz#b9d03f090ece263671898d57bb7bb007023ac19f"
-  integrity sha512-7WhJ0MdpFgYQPXlF4Dx+DhgvlPCfz/x5mHaeDQAKhcenvQP1KCpLQ18JklAqeGMYSAT2PxLpzd0g2/HE7fj7hQ==
+"@types/rimraf@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@types/rimraf/-/rimraf-3.0.1.tgz#1bbc106f0978742289103e080d4b41b3b4656e58"
+  integrity sha512-CAoSlbco40aKZ0CkelBF2g3JeN6aioRaTVnqSX5pWsn/WApm6IDxI4e4tD9D0dY/meCkyyleP1IQDVN13F4maA==
   dependencies:
     "@types/glob" "*"
     "@types/node" "*"
