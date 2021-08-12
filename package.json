@@ -58,8 +58,10 @@
     "singleQuote": true
   },
   "lint-staged": {
+    "*.{js,ts}": [
+      "npm run lint"
+    ],
     "*.{js,ts,json,md}": [
-      "npm run lint",
       "prettier --write"
     ]
   }
