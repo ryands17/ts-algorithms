@@ -22,10 +22,10 @@
     "typescript": "^5.0.0"
   },
   "devDependencies": {
-    "@types/jest": "28.1.8",
-    "@types/node": "16.18.11",
+    "@types/jest": "29.5.12",
+    "@types/node": "20.11.30",
     "@types/prettier": "2.7.3",
-    "@types/rimraf": "3.0.2",
+    "@types/rimraf": "4.0.5",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
     "eslint": "8.57.0",
