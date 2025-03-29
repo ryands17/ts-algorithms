@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@types/jest": "29.5.14",
-    "@types/node": "22.13.11",
+    "@types/node": "22.13.14",
     "@types/prettier": "3.0.0",
     "@types/rimraf": "4.0.5",
     "@typescript-eslint/eslint-plugin": "8.27.0",
