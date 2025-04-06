@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@types/jest": "29.5.14",
-    "@types/node": "22.13.14",
+    "@types/node": "22.14.0",
     "@types/prettier": "3.0.0",
     "@types/rimraf": "4.0.5",
     "@typescript-eslint/eslint-plugin": "8.29.0",
@@ -37,7 +37,7 @@
     "rimraf": "6.0.1",
     "ts-jest": "29.3.1",
     "ts-node-dev": "2.0.0",
-    "typesync": "0.14.1"
+    "typesync": "0.14.3"
   },
   "jest": {
     "roots": [
