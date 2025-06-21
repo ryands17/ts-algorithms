@@ -22,7 +22,7 @@
     "typescript": "^5.0.0"
   },
   "devDependencies": {
-    "@types/jest": "29.5.14",
+    "@types/jest": "30.0.0",
     "@types/node": "22.15.32",
     "@types/prettier": "3.0.0",
     "@types/rimraf": "4.0.5",
