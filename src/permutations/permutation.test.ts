@@ -1,3 +1,4 @@
+import { test, expect, describe } from 'bun:test'
 import { checkPermutation } from './permutation'
 
 describe(`Check permutations of a given string`, () => {

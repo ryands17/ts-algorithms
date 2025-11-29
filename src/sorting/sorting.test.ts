@@ -1,3 +1,4 @@
+import { test, expect, describe } from 'bun:test'
 import { bubbleSort } from './bubbleSort'
 import { selectionSort } from './selectionSort'
 import { merge, mergeSort } from './mergeSort'

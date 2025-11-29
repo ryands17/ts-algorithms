@@ -1,3 +1,4 @@
+import { test, expect } from 'bun:test'
 import { vowels } from './vowels'
 
 test('returns the number of vowels used', () => {

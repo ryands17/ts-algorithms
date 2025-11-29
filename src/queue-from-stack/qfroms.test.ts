@@ -1,3 +1,4 @@
+import { test, expect } from 'bun:test'
 import { Queue } from './qfroms'
 
 test('can add elements to a queue', () => {

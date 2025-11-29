@@ -1,3 +1,4 @@
+import { test, expect, describe } from 'bun:test'
 import { Node, Tree } from './tree'
 
 describe('Node', () => {

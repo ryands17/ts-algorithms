@@ -1,3 +1,4 @@
+import { test, expect } from 'bun:test'
 import { chunk } from './arrayChunk'
 
 test('chunk divides an array of 10 elements with chunk size 2', () => {

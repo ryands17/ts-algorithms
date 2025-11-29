@@ -1,3 +1,4 @@
+import { test, expect } from 'bun:test'
 import { Stack } from './stack'
 
 test('stack can add and remove items', () => {

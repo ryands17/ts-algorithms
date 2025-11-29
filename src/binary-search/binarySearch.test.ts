@@ -1,3 +1,4 @@
+import { test, expect, describe } from 'bun:test'
 import { binarySearch } from './binarySearch'
 
 describe(`Given a sorted array`, () => {

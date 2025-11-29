@@ -1,3 +1,4 @@
+import { test, expect } from 'bun:test'
 import { weave } from './weave'
 import { Queue } from '../queue/queue'
 

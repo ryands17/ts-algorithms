@@ -1,3 +1,4 @@
+import { test, expect } from 'bun:test'
 import { reverseInt } from './reverseInt'
 
 test('ReverseInt function exists', () => {
