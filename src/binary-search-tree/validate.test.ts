@@ -1,3 +1,4 @@
+import { test, expect } from 'bun:test'
 import { Node, validate } from './bst'
 
 test('Validate recognizes a valid BST', () => {

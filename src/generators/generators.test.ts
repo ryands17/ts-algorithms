@@ -1,3 +1,4 @@
+import { test, expect } from 'bun:test'
 import { range } from './generators'
 
 test('Gets the correct range with a single parameter', () => {

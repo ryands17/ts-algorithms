@@ -1,3 +1,4 @@
+import { test, expect } from 'bun:test'
 import { maxChar } from './maxChar'
 
 test('Finds the most frequently used char', () => {

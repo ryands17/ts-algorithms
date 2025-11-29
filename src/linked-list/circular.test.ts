@@ -1,3 +1,4 @@
+import { test, expect } from 'bun:test'
 import { isCircularList as circular } from './circular'
 import { LinkedList as List, Node } from './linkedList'
 
